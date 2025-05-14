@@ -1,0 +1,15 @@
+#config Name Circle
+#config Scanner 0
+#config Weapon 3
+#config Armor 2
+#config Engine 5
+#config Heatsinks 2
+#config Mines 0
+#config Shield 2
+$
+self.rotate_center(1)
+self.move()
+$
+%
+self.fire()
+%

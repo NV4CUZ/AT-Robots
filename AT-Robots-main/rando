@@ -1,0 +1,16 @@
+#config Name Schizo
+#config Scanner 0
+#config Weapon 3
+#config Armor 2
+#config Engine 5
+#config Heatsinks 2
+#config Mines 0
+#config Shield 2
+$
+self.rotate_center(random.randint(0, 360))
+self.move()
+self.move()
+$
+%
+self.fire()
+%
